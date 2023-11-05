@@ -1,0 +1,21 @@
+ID,PartName,Weight,WeightError,Period,ChanceOfDefective
+1,Engine Block,250,5,1,5
+2,Transmission,150,3,2,5
+3,Brake Caliper,4,0.2,3,5
+4,Alternator,8,0.5,4,5
+5,Cylinder Head,12,1,5,5
+6,Radiator,15,0.8,6,5
+7,Exhaust Manifold,9,0.4,7,5
+8,Crankshaft,10,0.7,8,5
+9,Fuel Pump,5,0.3,9,5
+10,Steering Rack,7,0.6,10,5
+11,Shock Absorber,3,0.1,11,5
+12,Wheel Hub Assembly,6,0.2,12,5
+13,Oxygen Sensor,2,0.1,13,5
+14,Ignition Coil,1.5,0.1,14,5
+15,Throttle Body,2,0.2,15,5
+16,Suspension Strut,3.5,0.2,16,5
+17,Starter Motor,7,0.4,17,5
+18,Air Filter,0.5,0.05,18,5
+19,Fuel Injector,1,0.05,19,5
+20,Catalytic Converter,8,0.4,20,5
