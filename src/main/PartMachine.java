@@ -52,7 +52,9 @@ public class PartMachine {
     	for(int i = 0; i < 10; i++) {
     		conveyorBelt.enqueue(null);
     	}
-    }
+    	
+       }
+    
         
     public int getId() {
        return this.id;
@@ -112,6 +114,7 @@ public class PartMachine {
     public void resetConveyorBelt() {
     	 conveyorBelt.clear();
     	 createConveyorBelt();
+          
     }
     /**
      * Produces a car part based on the timer and adds it to the conveyor belt.
@@ -122,9 +125,9 @@ public class PartMachine {
     	if(timer.front() == 0) {
     		int id = p1.getId();
     		String name = p1.getName();
-    		double weight = generateRandomWeight();
+    		double weight = generateRandomWeight(); // 
     		
-    		boolean defective = totalPartsProduced % chanceOfDefective == 0;
+    		boolean defective = totalPartsProduced % chanceOfDefective == 0; // op to check if the part is defective 
     		
     		CarPart part = new CarPart(id, name, weight, defective);
     		conveyorBelt.enqueue(part);
@@ -149,7 +152,7 @@ public class PartMachine {
 		double rn = new Random().nextDouble();
 		return min + (rn * (max - min));
     }
-    
+   
     
     /**
      * Returns string representation of a Part Machine in the following format:
